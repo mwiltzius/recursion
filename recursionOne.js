@@ -29,4 +29,6 @@ function sum(a, i){
     return current + sum(a, i - 1);
 }
 
+let a = [1, 2, [1, 2, [1, 2]]];
 
+console.log(sum(a, 2));
